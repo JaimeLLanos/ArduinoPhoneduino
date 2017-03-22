@@ -1,0 +1,13 @@
+Buscar estaniadora y Alicates pequeños para quitar la resistencia que está soldada
+Quedamos los miércoles despues de AIS (intentamos reservar sala)
+Traer materiales
+Arduino, integrar código
+Probar código con la pantalla
+Soldar el hardware, y probar funcionamiento con una SIM nuestra
+
+--------------- IDEAS------------------
+
+En caso de haber tiempo, podemos intentar meter alguna de estas ideas integrando una tarjeta SD:
+  -Implementar una agenda (como la de AIS) para visualizar los contactos
+  -Codificar y crear un reproductor MP3 e intentar que funcione
+  ...
