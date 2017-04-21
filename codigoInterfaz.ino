@@ -145,7 +145,7 @@ void loop(void) {
     p.x = p.y = p.z = -1;
   }
   
-  // Scale from ~0->4000 to tft.width using the calibration #'s
+  // Calibrar la interfaz al tamaño de la pantalla
   if (p.z != -1) {
     p.x = map(p.x, TS_MINX, TS_MAXX, 0, tft.width());
     p.y = map(p.y, TS_MINY, TS_MAXY, 0, tft.height());
@@ -172,7 +172,7 @@ void loop(void) {
     if (buttons[b].justPressed()) {
         buttons[b].drawButton(true);
         
-        // Si se a�ade un boton de almohadilla numerica, mostrar # en pantalla
+        // Si se añade un boton de almohadilla numerica, mostrar # en pantalla
         if (b >= 3) {
           if (textfield_i < TEXT_LEN) {
             textfield[textfield_i] = buttonlabels[b][0];
